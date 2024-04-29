@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+    "name": "HNExtender",
+    "version": "1.0",
+  
+    "description": "Styling and usability enhancements for news.ycombinator.com, a.k.a. Hacker News.",
+  
+    "icons": {
+      "48": "icons/library_books.svg"
+    },
+  
+    "content_scripts": [
+      {
+        "matches": ["*://*.news.ycombinator.com/*"],
+        "js": ["code/doThings.js"]
+      }
+    ]
+    
+  }
+  

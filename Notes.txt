@@ -1,0 +1,28 @@
+https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Your_first_WebExtension
+
+Ideas:
+Make styling more like a darkmode
+Style story entries in less compact way, maybe use some component library like MUI.
+Infinite scroll and fire off API calls to load more stories based on user scrolling
+
+Table structure:
+
+Body
+    center
+        table
+            tr (Hacker News Banner)
+                ...
+            tr (all table contents)
+                td
+                    table 
+                        tbody
+                            tr (story title /link / votes)
+                            tr (story points, author, comments link)
+                            tr (spacer)
+                            ...repeat for each story
+
+
+
+
+
+
